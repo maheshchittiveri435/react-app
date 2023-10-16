@@ -1,0 +1,27 @@
+.menu {
+    display: flex;
+    justify-content: space-between; /* This will evenly space the items */
+    align-items: baseline; /* This will align the items vertically */
+  }
+
+.menu-item a {
+    text-decoration: none;
+    background-color: #a0a5a9;
+  }
+  
+.menu-item a:hover {
+    text-decoration: blink;
+  }
+  
+.menu-item {
+    border: 1px solid #a57979;
+    padding: 10px;
+    margin: 10px;
+    position: relative;
+    left: 10px;
+    top: 30px;
+  }
+
+.menu-item h3 {
+    margin: 0;
+  }

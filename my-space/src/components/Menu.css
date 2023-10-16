@@ -1,0 +1,45 @@
+/* Navigation.css */
+
+nav {
+    background-color: #668f95;
+    border: 1px solid #403e3e;
+    padding: 10px;
+    margin: 10px;
+    position: relative;
+    left: 200px;
+    top: 100px;
+    width: 1000px; 
+}
+  
+  
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+  
+li {
+    display: inline;
+    margin-right: 10px;
+}
+  
+a {
+    color: #001F5A;
+    text-decoration: none;
+    background-color: #917575;
+    min-height: 33px;
+    box-sizing: inherit;
+    border: 2px solid #282626;
+    padding: 10px;
+    margin: 10px;
+    position: relative;
+    left: 10px;
+    top: 10px;
+    font-variant-numeric: lining-nums;
+    font-family: 'freightsans_prosemibold',sans-serif!important;
+    font-feature-settings: "lnum";
+}
+
+.active {
+    font-weight: bold;
+}
+  

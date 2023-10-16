@@ -1,0 +1,106 @@
+.check-item {
+    border: 1px solid #a57979;
+    background-color: #eee5eb;
+    padding: 10px;
+    margin: 10px;
+    position: relative;
+    left: 200px;
+    top: 100px;
+    width: 1000px; 
+}
+
+.check-item p {
+    display: ruby;
+    margin-right: 10px;
+}
+
+.scroll-text {
+    display: inline-block;
+    animation: scroll 4s linear infinite;
+    font-weight: bold;
+    color: #18a739;
+}
+  
+@keyframes scroll {
+    from {
+      transform: translateX(100%);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+}
+
+.right-most {
+    position: relative;
+    left: 180px;
+    top: 8px;
+}
+
+.right {
+    position: relative;
+    left: 180px;
+    color: #07518e;
+    font-weight: bold;
+}
+
+.overlay {
+    position: relative;
+    left: 400px;
+    background-color: #c0e482;
+    padding: 20px;
+    width: 500px; 
+    height: 70px;
+    margin: 10px;
+}
+
+.overlay input {
+    position: relative;
+    background-color: #c0e482;
+    width: 300px; 
+    margin: 0 5px;
+  padding: 8px 16px;
+  border: inset;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+.overlay button {
+    position: relative;
+  top: 10px;
+    background-color: #c0e482;
+    margin: 0 2px;
+  padding: 6px 16px;
+  border: inset;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.saved-list-h{
+    color: #07518e;
+    position: relative;
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+.saved-list label{
+    color: #1c8f1a;
+    position: relative;
+    font-weight: bold;
+    font-size: xx-large;
+    margin-bottom: 10px;
+    align-content: flex-start;
+    display: block;
+  text-align: left;
+}
+
+.bullet {
+    font-size: 30px; /* Adjust bullet size as needed */
+    margin-right: 10px; /* Adjust space between bullet and text */
+}
+
+.delete-right {
+    position: relative;
+    float: right;
+    
+}
